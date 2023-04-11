@@ -1,0 +1,8 @@
+# process pointcloud to watertight mesh in Meshlab
+*import .ply point cloud
+*manually remove points outside of the object (e.g. )
+*filters->sampling->poisson-disk sampling->Base Mesh Subsampling
+*filters->normals curvatures and orientation->compute normals for point sets
+*filters, point set, surface reconstruction: Poisson
+*switch view from “points” to “hidden lines”
+*export as .stl
