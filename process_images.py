@@ -102,7 +102,7 @@ def processing(redIMG):
     #gaussian blurr
     redIMG = gaussian_filter(redIMG)
     #threshold image
-    threshold = 0.5#*np_max(redIMG)
+    threshold = 0.1#*np_max(redIMG)
     thresholded = np_multiply(redIMG,redIMG>threshold)
     #find maxima with gaussian function (fit)
 #    maxima = find_maxima_gauss(thresholded)
