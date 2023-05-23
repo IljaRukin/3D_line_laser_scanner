@@ -1,6 +1,8 @@
 # 3D_line_laser_scanner
 3D scanner build from a raspberry pi zero with camera, 2x line laser pointers and a rotating plattform.
 
+Calibration must be improved, since the 3d scan is quite inaccurate.
+
 # steps to use this 3D scanner
 
 1. print the 3D files and cut some rods to size
